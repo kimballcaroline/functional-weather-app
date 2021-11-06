@@ -42,3 +42,8 @@ h2 {
 #current-location-btn {
   padding-top: 40px;
 }
+
+#credit {
+  display: block;
+  margin: 0 auto;
+}
