@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row shadow-sm p-3 bg-white rounded">
+        <form id="search-form">
+          <div class="form-group search-bar mb-0 pb-0">
+            <div>
+              <input
+                type="text"
+                autocomplete="off"
+                autofocus="on"
+                placeholder="Search a city..."
+                id="search-city"
+              /><input
+                type="submit"
+                value="🔍 Search"
+                id="search-button"
+                class="btn btn-primary btn-primary"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="col-6" id="current-location-btn">
+          <button class="btn btn-primary btn-info">
+            Use Your Current Location
+          </button>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div>
+          <h1 id="display-city">Search for your city</h1>
+          <h2 id="current-date"></h2>
+        </div>
+      </div>
+      <span class="today-temp" id="current-temp"></span>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+h1 {
+  font-size: 30px;
+  padding: 20px 20px 0px 20px;
+}
+
+h2 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.forecast-temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 24px;
+}
+
+.today-temp {
+  font-size: 48px;
+}
+
+.unit {
+  font-size: 30px;
+}
+
+.five-day {
+  font-size: 20px;
+}
+
+.search-bar {
+  padding: 40px;
+}
+
+.stats {
+  font-size: 14px;
+  color: lightgray;
+  text-align: right;
+}
+
+#current-location-btn {
+  padding-top: 40px;
+}
